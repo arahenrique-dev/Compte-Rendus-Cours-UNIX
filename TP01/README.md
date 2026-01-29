@@ -23,7 +23,7 @@ L'installation est faite avec le mirror suivant : deb.debian.org
 
 Après l'installation on se retrouve avec une machine qui contient 323 paquets (vérifié avec dpkg -l | wc -l). On se connecte à la machine et on configure le ssh avec : apt install ssh
 
-## 3. CommandesLocales
+## 3. Commandes
 
 **Locales :**
 ```bash
