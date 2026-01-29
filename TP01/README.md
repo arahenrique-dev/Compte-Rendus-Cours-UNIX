@@ -1,4 +1,4 @@
-# Compte-rendu – TP 01 Installation Serveurs
+# Compte-rendu – TP 01 : Installation Serveurs
 Henrique Pires Aragão - 21304445
 Sorbonne Université
 
@@ -19,11 +19,11 @@ http://ftp.fr.debian.org/debian/dists/trixie/main/installer-arm64/current/images
 
 L'installation est faite avec le mirror suivant : deb.debian.org
 
-## 1. Post-Installation
+## 2. Post-Installation
 
 Après l'installation on se retrouve avec une machine qui contient 323 paquets (vérifié avec dpkg -l | wc -l). On se connecte à la machine et on configure le ssh avec : apt install ssh
 
-## 2. CommandesLocales
+## 3. CommandesLocales
 
 **Locales :**
 ```bash
@@ -149,11 +149,11 @@ tmpfs           392M  8.0K  392M   1% /run/user/0
 
 Avec cette commande on a des informations de l'usage des partitions. Le retour nous dit que la partition principale dy système est /dev/vda6, avec 46 G et seulement 1.1G est en train d'être utilisé, c'est à dire que le disque est presque vide.
 
-## Conclusion
+## 4. Conclusion
 
 Le TP s'est déroulé tranquillement avec des adaptations pour la réussite avec le hardware disponible. La machine Debian a été installée, ce qui nous met en disponibilité un système léger et fonctionnel.
 
-## Sources
+## 5. Sources
 1. Debian Project. *Debian GNU/Linux installation guide*. [https://www.debian.org/releases/stable/amd64/index.fr.html](https://www.debian.org/releases/stable/amd64/index.fr.html) 
 2. UTM. *Virtualize Linux on Apple Silicon*. [https://mac.getutm.app/](https://mac.getutm.app/)  
 3. Fdisk. *Utilisation*. [https://doc.ubuntu-fr.org/fdisk](https://doc.ubuntu-fr.org/fdisk)  
