@@ -108,7 +108,7 @@ Pour que l'administrateur du serveur soit capable de proteger son serveur, il y 
 ## 2. Processus
 ### 2.1 Exercice : Etude des processus UNIX
 #### 1.
-En lançant...
+En lançant ...
 ```bash
 man ps
 ``` 
@@ -201,7 +201,7 @@ La commande ci-dessus enregistre le contenu de la liste produite dans le fichier
 ```bash
 ls -l | tee liste
 ```
-Affiche et enregistre au même temps le contenu de forme detaillée dans liste
+Affiche et enregistre au même temps le contenu de forme detaillée dans liste.
 
 ```bash
 ls -l | tee liste | wc -l
